@@ -21,26 +21,26 @@ A **set** is an unordered collection of distinct objects, which may be anything,
 
 Curly braces seperate elements:
 
-$$ \{a, b, c, d\} $$
+$$ \ \lbracea, b, c, d\ \rbrace $$
 
 
 ### Semantics of Sets
 
 Two sets are equal when they have the same contents, ignoring the order.
 
-$$ \{a, b, c\} = \{c, b, a\} $$
+$$ \ \lbrace a, b, c\ \rbrace = \ \lbrace c, b, a\ \rbrace $$
 
 <br>
 Sets cannot contain duplicate elements. Any repeated elments are ignored.
 
-$$ \{a, b, c\} = \{a, a, a, b, b, c\} $$
+$$ \ \lbrace a, b, c\ \rbrace = \ \lbrace a, a, a, b, b, c\ \rbrace $$
 
 <br>
 The objects that make up a set are called the elements of that set.
 
 $$ 
-a \in \{a, b, c, d\} \\
-e \notin \{a, b, c, d\}
+a \in \lbrace a, b, c, d \rbrace \\
+e \notin \ \lbrace a, b, c, d\ \rbrace
 $$
 
 The symbol $\in$ means "is an element of" and the $\notin$ means "is not an element of."
@@ -48,6 +48,6 @@ The symbol $\in$ means "is an element of" and the $\notin$ means "is not an elem
 <br>
 Sets can contain any number of elements.
 
-$$ \{\} = \emptyset $$
+$$ \ \lbrace\ \rbrace = \emptyset $$
 
 The *empty set* is the set with no elements. We denote this empty set using the $\emptyset$ symbol.
